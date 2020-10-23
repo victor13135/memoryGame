@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Memory game </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="glavni"> 
+        <div class="naslovnaLinija">
+            <h3> Igra memorije </h3>
+            <span id="timer"> 0 </span>
+        </div>  
+        <input type="text" id="imeIgraca" placeholder="Unesite ime...">
+        <div id="divIzbornik">
+            <input type="radio" name="tezina" value="lako" id="lvl1" checked> Lako
+            <input type="radio" name="tezina" value="srednje" id="lvl2"> Srednje
+            <input type="radio" name="tezina" value="teško" id="lvl3"> Teško
+            <input type="radio" name="tezina" value="ekspert" id="lvl4"> Ekspert
+        </div>
+        <div id="result">
+            
+        </div>
+    </div>
+    <div class="container" id="listaVecitih">
+        <div class="naslovnaLinija">
+            <h3 id="naslovVecitih"> Najbolji rezultati </h3>
+        </div>
+        <div id="tableSelect">
+            <button id="lako"> Lako </button>
+            <button id="srednje"> Srednje </button>
+            <button id="tesko"> Teško </button>
+            <button id="ekspert"> Eskpert </button>
+        </div>
+        <div id="tabelaVecitih">
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
